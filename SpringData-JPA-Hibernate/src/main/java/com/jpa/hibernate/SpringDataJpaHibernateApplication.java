@@ -8,6 +8,7 @@ public class SpringDataJpaHibernateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDataJpaHibernateApplication.class, args);
+		System.out.println("Welcome to Spring boot Data JPA tutorial");
 	}
 
 }
