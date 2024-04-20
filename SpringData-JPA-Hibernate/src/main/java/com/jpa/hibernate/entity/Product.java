@@ -16,7 +16,7 @@ public class Product {
      @Id
      @GeneratedValue(strategy = GenerationType.AUTO)
      private Long id;
-     @Column(name = "stock_keeping_unit")
+     @Column(name = "stock_keeping_unit",nullable = false)
      private String sku; //stock keeping unit
      @Column(nullable = false)
      private String name;
